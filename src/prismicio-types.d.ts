@@ -79,7 +79,107 @@ export type PageDocument<Lang extends string = string> = prismic.PrismicDocument
 	Lang
 >;
 
-export type AllDocumentTypes = PageDocument;
+/**
+ * Item in *Setings → Navigation*
+ */
+export interface SetingsDocumentDataNavigationItem {
+	/**
+	 * Link field in *Setings → Navigation*
+	 *
+	 * - **Field Type**: Link
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: setings.navigation[].link
+	 * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+	 */
+	link: prismic.LinkField;
+
+	/**
+	 * Label field in *Setings → Navigation*
+	 *
+	 * - **Field Type**: Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: setings.navigation[].label
+	 * - **Documentation**: https://prismic.io/docs/field#key-text
+	 */
+	label: prismic.KeyTextField;
+
+	/**
+	 * CTA Button field in *Setings → Navigation*
+	 *
+	 * - **Field Type**: Boolean
+	 * - **Placeholder**: *None*
+	 * - **Default Value**: false
+	 * - **API ID Path**: setings.navigation[].cta_button
+	 * - **Documentation**: https://prismic.io/docs/field#boolean
+	 */
+	cta_button: prismic.BooleanField;
+}
+
+/**
+ * Content for Setings documents
+ */
+interface SetingsDocumentData {
+	/**
+	 * Site Title field in *Setings*
+	 *
+	 * - **Field Type**: Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: setings.site_title
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/field#key-text
+	 */
+	site_title: prismic.KeyTextField;
+
+	/**
+	 * Meta Description field in *Setings*
+	 *
+	 * - **Field Type**: Text
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: setings.meta_description
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/field#key-text
+	 */
+	meta_description: prismic.KeyTextField;
+
+	/**
+	 * OG Image field in *Setings*
+	 *
+	 * - **Field Type**: Image
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: setings.og_image
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/field#image
+	 */
+	og_image: prismic.ImageField<never>;
+
+	/**
+	 * Navigation field in *Setings*
+	 *
+	 * - **Field Type**: Group
+	 * - **Placeholder**: *None*
+	 * - **API ID Path**: setings.navigation[]
+	 * - **Tab**: Main
+	 * - **Documentation**: https://prismic.io/docs/field#group
+	 */
+	navigation: prismic.GroupField<Simplify<SetingsDocumentDataNavigationItem>>;
+}
+
+/**
+ * Setings document from Prismic
+ *
+ * - **API ID**: `setings`
+ * - **Repeatable**: `false`
+ * - **Documentation**: https://prismic.io/docs/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type SetingsDocument<Lang extends string = string> = prismic.PrismicDocumentWithoutUID<
+	Simplify<SetingsDocumentData>,
+	'setings',
+	Lang
+>;
+
+export type AllDocumentTypes = PageDocument | SetingsDocument;
 
 /**
  * Primary content in *RichText → Default → Primary*
@@ -131,11 +231,25 @@ declare module '@prismicio/client' {
 		): prismic.Client<AllDocumentTypes>;
 	}
 
+	interface CreateWriteClient {
+		(
+			repositoryNameOrEndpoint: string,
+			options: prismic.WriteClientConfig
+		): prismic.WriteClient<AllDocumentTypes>;
+	}
+
+	interface CreateMigration {
+		(): prismic.Migration<AllDocumentTypes>;
+	}
+
 	namespace Content {
 		export type {
 			PageDocument,
 			PageDocumentData,
 			PageDocumentDataSlicesSlice,
+			SetingsDocument,
+			SetingsDocumentData,
+			SetingsDocumentDataNavigationItem,
 			AllDocumentTypes,
 			RichTextSlice,
 			RichTextSliceDefaultPrimary,
