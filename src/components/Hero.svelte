@@ -24,7 +24,7 @@
     
         <!-- Image Section -->
         <div class="flex-1">
-            <img src="src\assets\ProfileImage.JPG" alt="Vedant Kesarwani" class="w-full h-auto rounded-lg" />
+            <img src="src\assets\Images\ProfileImage.JPG" alt="Vedant Kesarwani" class="w-full h-auto rounded-lg" />
             <!-- Add your desired styling to the image -->
         </div>
     </div>
