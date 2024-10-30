@@ -18,7 +18,7 @@
         </div>
         <!-- Image Section -->
         <div class="flex-1 flex flex-col items-center">
-            <img src="src\assets\images\ProfileImage2.JPG" alt="Vedant Kesarwani" class="w-full h-auto rounded-lg shadow-lg -ml-20 mb-4 transform transition-transform duration-300 hover:scale-105 border-indigo-400 border-4" />
+            <img src=".\src\assets\images\ProfileImage2.JPG" alt="Vedant Kesarwani" class="w-full h-auto rounded-lg shadow-lg -ml-20 mb-4 transform transition-transform duration-300 hover:scale-105 border-indigo-400 border-4" />
             <h2 class="text-xl font-semibold text-center">Vedant Kesarwani</h2>
             <p class="text-gray-600 text-center">Frontend Developer | Photographer</p>
         </div>
