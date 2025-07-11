@@ -1,0 +1,22 @@
+{
+    "name": "portfolio-website",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@types/js-yaml": "^4.0.9",
+        "prettier": "^3.6.2",
+        "prettier-plugin-tailwindcss": "^0.6.14",
+        "typescript": "^5.2.2",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "js-yaml": "^4.1.0"
+    }
+}

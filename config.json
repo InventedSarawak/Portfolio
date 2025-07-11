@@ -1,0 +1,153 @@
+{
+    "ascii": [
+        "██╗███╗   ██╗██╗     ██╗███████╗███╗   ██╗████████╗███████╗ ██████╗ ",
+        "██║████╗  ██║██║     ██║██╔════╝████╗  ██║╚══██╔══╝██╔════╝ ██╔══██╗",
+        "██║██╔██╗ ██║╚██╗   ██╔╝█████╗  ██╔██╗ ██║   ██║   █████╗   ██║  ██║",
+        "██║██║╚██╗██║ ╚██╗ ██╔╝ ██╔══╝  ██║╚██╗██║   ██║   ██╔══╝   ██║  ██║",
+        "██║██║ ╚████║  ╚████╔╝  ███████╗██║ ╚████║   ██║   ███████╗ ██████╔╝",
+        "╚═╝╚═╝  ╚═══╝   ╚═══╝   ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝ ╚═════╝ ",
+        "███████╗ █████╗ ██████╗  █████╗ ██╗    ██╗ █████╗ ██╗  ██╗",
+        "██╔════╝██╔══██╗██╔══██╗██╔══██╗██║    ██║██╔══██╗██║ ██╔╝",
+        "███████╗███████║██████╔╝███████║██║ █╗ ██║███████║█████╔╝ ",
+        "╚════██║██╔══██║██╔══██╗██╔══██║██║███╗██║██╔══██║██╔═██╗ ",
+        "███████║██║  ██║██║  ██║██║  ██║╚███╔███╔╝██║  ██║██║  ██╗",
+        "╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝"
+    ],
+
+    "title": "vedant",
+    "username": "vedant",
+    "hostname": "archlinux",
+    "password": "incorrect",
+    "repoLink": "https://github.com/inventedsarawak/portfolio",
+    "social": {
+        "email": "relativityeismc2@gmail.com",
+        "github": "inventedsarawak",
+        "linkedin": "vedant-kesarwani",
+        "instagram": "invented_sarawak",
+        "discord": "inventedsarawak"
+    },
+    "aboutGreeting": [
+        "Hallo, Ich Bin Vedant. 👋",
+        "I am a Computer Science student at IIIT Sri City.",
+        "I am way too interested in building for the web &emsp;(unhealthy amounts),",
+        "and a massive interest in Design. 🖌️",
+        "&nbsp;",
+        "If you want to find me in the wild, you can find me",
+        "-  Trying various foods 🍜&emsp;&emsp;(Would be too full to talk)",
+        "-  With a camera 📸 &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;(Eye to eye contact might not happen)",
+        "-  In the gym 💪 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp(Busy lifting weights)",
+        "-  Climbing a mountain ⛰️ &emsp;&emsp;(~risky~ no talking)",
+        "&nbsp;",
+        "Perhaps if you want to talk to me tho,",
+        "You can slide into my DMs here ⬇️"
+    ],
+
+    "projects": {
+        "Web Development": [
+            [
+                "HackTheBreach",
+                "A website for HackTheBreach, Cybersecurity Workshop & CTF.",
+                "https://hackthebreach.xyz"
+            ],
+            ["TEDxIIITS", "A website for TEDxIIITS.", "https://tedxiiitsricity.com"],
+            ["Fab2Fash", "A website for Fab2Fash, a fashion brand.", "https://fab2fash.com"],
+            ["Portfolio", "My personal portfolio website.", "https://vedant-kesarwani.vercel.app"]
+        ],
+        "Game Development": [
+            ["BubbleRise", "A game for GGJ 2025, based on bubbles", "https://github.com/inventedsarawak/BubbleRise"]
+        ],
+        "Research & AI": [
+            [
+                "A-MCTS",
+                "An implementation of the Advanced Monte Carlo Tree Search algorithm.",
+                "https://amcts.vercel.app"
+            ]
+        ],
+        "System Programming": [
+            [
+                "IPv4-Frags",
+                "A terminal application to simulate IPv4 fragmentation.",
+                "https://github.com/InventedSarawak/Fragmentaion_Algo"
+            ],
+            [
+                "CYK Algorithm",
+                "A terminal application to simulate CYK algorithm.",
+                "hhttps://github.com/InventedSarawak/CYK-Algorithm"
+            ]
+        ]
+    },
+    "skills": {
+        "Languages": [
+            ["C/C++", "Low-level system programming and embedded systems"],
+            ["Java", "Enterprise applications and cross-platform development"],
+            ["Python", "Scripting & Data structures and algorithms"],
+            ["HTML", "Semantic markup and web structure"],
+            ["CSS", "Styling, animations, and responsive design"],
+            ["JavaScript", "Dynamic web development and interactive features"],
+            ["TypeScript", "Type-safe JavaScript development"],
+            ["Go", "Game Development & Blockchain Development"],
+            ["Markdown", "Documentation and content formatting"]
+        ],
+        "Frontend Stack": [
+            ["React", "Modern component-based UI development"],
+            ["Next.js", "Full-stack React applications with SSR/SSG"],
+            ["GSAP", "High-performance animations and motion graphics"],
+            ["Motion", "React animation library for smooth interactions"],
+            ["Three.js", "3D graphics and WebGL experiences"]
+        ],
+        "Backend Technologies": [
+            ["Node.js", "Server-side JavaScript runtime"],
+            ["Express", "Fast and minimalist web framework"],
+            ["NestJS", "Progressive Node.js framework for scalable applications"],
+            ["Firebase", "Real-time database and backend-as-a-service"],
+            ["Supabase", "Open-source Firebase alternative"],
+            ["MongoDB", "NoSQL document database"],
+            ["MySQL", "Relational database management system"],
+            ["PostgreSQL", "Advanced open-source relational database"]
+        ],
+        "Dev Tools": [
+            ["Git", "Version control and collaborative development"],
+            ["GitHub", "Code hosting and project collaboration"],
+            ["Docker", "Containerization and deployment"],
+            ["Docker Compose", "Multi-container application orchestration"],
+            ["Prettier", "Code formatting and style consistency"],
+            ["ESLint", "JavaScript linting and code quality"],
+            ["Amazon EC2", "Cloud computing and virtual servers"],
+            ["Amazon S3", "Cloud storage and content delivery"],
+            ["Vercel", "Frontend deployment and hosting platform"]
+        ]
+    },
+    "achievements": [
+        "Certificate of Achievement for exceptional academic performance and scoring 9+ CGPA",
+        "Played a key role in TEDx event execution, managing logistics for 100+ attendees",
+        "Facilitated Hack The Breach cybersecurity bootcamp with 200+ participants and 25+ experts"
+    ],
+    "experience": {
+        "Lead Organizer at Hack The Breach": "Jul 2025 - Present",
+        "Website Developer at TEDxIIITS": "Jan 2025 - Present",
+        "Website & Design Lead at Hack The Breach": "Mar 2025 - Jul 2025"
+    },
+    "colors": {
+        "background": "#1e1e2e",
+        "foreground": "#cdd6f4",
+        "banner": "#cba6f7",
+        "border": {
+            "visible": false,
+            "color": "#b4befe"
+        },
+        "prompt": {
+            "default": "#6c7086",
+            "user": "#f5c2e7",
+            "host": "#89dceb",
+            "input": "#89b4fa"
+        },
+        "link": {
+            "text": "#cba6f7",
+            "highlightColor": "#b4befe",
+            "highlightText": "#1e1e2e"
+        },
+        "commands": {
+            "textColor": "#fab387"
+        }
+    }
+}
