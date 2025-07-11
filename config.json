@@ -59,7 +59,7 @@
         "Research & AI": [
             [
                 "A-MCTS",
-                "An implementation of the Advanced Monte Carlo Tree Search algorithm.",
+                "An implementation of the Adaptive Monte Carlo Tree Search algorithm.",
                 "https://amcts.vercel.app"
             ]
         ],
