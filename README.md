@@ -10,11 +10,10 @@ A retro-styled, terminal-inspired portfolio built with **HTML**, **CSS**, and **
 
 ```bash
 .
-├── config.json             # Config file for command registration or shell info
-├── index.html              # Entry point
-├── LICENSE
-├── node_modules/           # Dependencies managed via pnpm
-├── package.json            # Project metadata & scripts
+├── config.json             # Config file for shell info
+├── index.html              # Entry point with OG metadata
+├── package-lock.json
+├── package.json
 ├── pnpm-lock.yaml
 ├── README.md               # You are here :)
 ├── res/
@@ -22,14 +21,17 @@ A retro-styled, terminal-inspired portfolio built with **HTML**, **CSS**, and **
 ├── src/
 │   ├── commands/           # Command handlers
 │   │   ├── about.ts
+│   │   ├── achievements.ts
 │   │   ├── banner.ts
 │   │   ├── default.ts
+│   │   ├── gitlog.ts
 │   │   ├── help.ts
 │   │   ├── projects.ts
+│   │   ├── skills.ts
 │   │   └── whoami.ts
 │   ├── css/
 │   │   ├── css-reset.css   # Normalize default styles
-│   │   ├── font/           # IBM Plex Mono font
+│   │   ├── font/
 │   │   │   └── IBMPlexMono-Thin.ttf
 │   │   └── style.css       # Terminal UI styles
 │   ├── main.ts             # Entry script — bootstraps shell
@@ -41,26 +43,27 @@ A retro-styled, terminal-inspired portfolio built with **HTML**, **CSS**, and **
 
 ## 🚀 Features
 
-- 🔱 **CLI-like interface** — Type commands like `about`, `projects`, `help`
-- ⌨️ **Fast and minimal UI** — No frameworks, no bloat
-- 💅 **Custom CSS & Fonts** — Retro aesthetic with IBM Plex Mono
-- 🧠 **Modular Command System** — Easy to add/edit commands in `src/commands`
-- ⚡ **Powered by TypeScript** — Type-safe and scalable
-- 📦 **Built with Vite & pnpm** — Lightning fast bundling
+- ⌨️ **CLI-like interface** — Type commands like `about`, `projects`, `help`
+- 🧠 **Custom Commands** — Modular TypeScript command files
+- 🎨 **Retro Styling** — Monospace fonts and terminal colors
+- ⚡ **Fast and lightweight** — No frameworks, pure HTML/CSS/TS
+- 📦 **Built with Vite & pnpm** — Blazing fast dev experience
 
 ---
 
 ## 🧪 Available Commands
 
-| Command    | Description                  |
-| ---------- | ---------------------------- |
-| `about`    | Shows who you are            |
-| `projects` | Lists your featured work     |
-| `whoami`   | Your short bio / tagline     |
-| `help`     | Shows all available commands |
-| `clear`    | Clears the terminal screen   |
-
-Add your own commands by creating new `.ts` files in `src/commands/`.
+| Command        | Description                    |
+| -------------- | ------------------------------ |
+| `about`        | Shows who you are              |
+| `achievements` | Your accomplishments           |
+| `banner`       | Intro terminal header          |
+| `gitlog`       | Simulated Git commit history   |
+| `projects`     | Highlights from your portfolio |
+| `skills`       | Technologies and tools you use |
+| `whoami`       | Short tagline or intro         |
+| `help`         | Lists all available commands   |
+| `clear`        | Clears the terminal screen     |
 
 ---
 
@@ -81,30 +84,34 @@ pnpm run build
 
 ---
 
-## 🥉 Customization Tips
+## ✏️ Customization Tips
 
 - **Logo**: Replace `res/logo.png` with your own icon
-- **Fonts**: Use any monospace font via `src/css/font/`
-- **Colors & Themes**: Tweak `style.css` or use `styles.ts` for dynamic styles
-- **Commands**: Add new command files to `src/commands/` and register them in `main.ts`
+- **Fonts**: Add new fonts to `src/css/font/`
+- **Colors & Layout**: Update `style.css` or `styles.ts`
+- **New Commands**: Create a new `.ts` file in `src/commands/`
 
 ---
 
 ## 🌐 Deployment
 
-Since it’s a static site:
+You can deploy this project on:
 
-- **Vercel**, **Netlify**, **GitHub Pages**, or even **Firebase Hosting** will work perfectly.
+- **Vercel** (recommended)
+- **Netlify** / **GitHub Pages**
+- Any static host
+
+Make sure OG tags are present in `index.html` for rich previews.
 
 ---
 
 ## 👨‍💻 Author
 
-Made with ⚡, 🎨, and a love for command-line aesthetics by
-**Vedant Kesarwani** ([InventedSarawak](https://github.com/InventedSarawak))
+Built with ⚡ and ❤️ by **Vedant Kesarwani**
+GitHub: [@InventedSarawak](https://github.com/InventedSarawak)
 
 ---
 
 ## ⭐ Like This Project?
 
-Give it a ⭐ on GitHub, fork it, and make your own terminal experience.
+Star the repo, fork it, and build your own terminal experience!
