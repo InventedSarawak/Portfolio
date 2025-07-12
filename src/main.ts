@@ -47,7 +47,9 @@ const COMMANDS = [
     'github',
     'discord',
     'instagram',
+    'leetcode',
     'git log',
+    'get cache-miss'
     // 'email',
 ]
 const HISTORY: string[] = []
@@ -58,6 +60,8 @@ const LINKEDIN = `https://www.linkedin.com/in/${command.social.linkedin}/`
 const GITHUB = `https://github.com/${command.social.github}`
 const DISCORD = `https://discord.com/users/${command.social.discord}`
 const INSTAGRAM = `https://www.instagram.com/${command.social.instagram}`
+const BLOG = `https://vedant-blog-kappa.vercel.app`
+const LEETCODE = `https://leetcode.com/${command.social.leetcode}`
 // const EMAIL = `mailto:${command.social.email}`
 
 const scrollToBottom = () => {
@@ -322,6 +326,18 @@ function commandHandler(input: string) {
                 break
             }
             writeLines(GITLOG)
+            break
+        case 'get cache-miss':
+            writeLines(['Redirecting to CacheMiss blog...', '<br>'])
+            setTimeout(() => {
+                window.open(BLOG, '_blank')
+            })
+            break
+        case 'leetcode':
+            writeLines(['Redirecting to leetcode.com...', '<br>'])
+            setTimeout(() => {
+                window.open(LEETCODE, '_blank')
+            })
             break
         case 'rm -rf':
             if (bareMode) {

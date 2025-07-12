@@ -1,6 +1,7 @@
 const helpObj = {
     commands: [
         ["'aboutme'", 'Know about yo boi', false],
+        ["'get cache-miss'", 'Go to my blog.', false],
         ["'ls -a projects'", 'The projects that have left my github private.', false],
         ["'ls -a skills'", 'Display my technical skills and expertise.', false],
         ["'git log'", 'Display my experience.', false],
@@ -8,11 +9,12 @@ const helpObj = {
         ["'sudo'", 'Felt lazy? Also dont do something crazy.', false],
         ["'curl repo'", 'Repo of the site.', false],
         ["'neofetch'", 'Display the banner.', false],
-        ["'clear/cls'", 'Its in the name, isnt it?', false],
+        ["'clear'", 'Its in the name, isnt it?', false],
         ["'whoami'", 'Display your username.', false],
         ["'exit'", 'Exit the terminal.', true],
         ["'linkedin'", 'Who likes clicking links.', false],
         ["'github'", 'The same reason as above.', false],
+        ["'leetcode'", 'Its obvious, isnt it?', false],
         ["'discord'", 'How many times do I tell you.', false],
         ["'instagram'", 'You dont get it do you?', true]
     ]
