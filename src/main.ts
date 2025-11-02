@@ -60,7 +60,7 @@ const LINKEDIN = `https://www.linkedin.com/in/${command.social.linkedin}/`
 const GITHUB = `https://github.com/${command.social.github}`
 const DISCORD = `https://discord.com/users/${command.social.discord}`
 const INSTAGRAM = `https://www.instagram.com/${command.social.instagram}`
-const BLOG = `https://vedant-blog-kappa.vercel.app`
+const BLOG = `https://blog.invented-sarawak.me`
 const LEETCODE = `https://leetcode.com/${command.social.leetcode}`
 // const EMAIL = `mailto:${command.social.email}`
 
