@@ -5,7 +5,8 @@ const helpObj = {
         ["'ls -a projects'", 'The projects that have left my github private.', false],
         ["'ls -a skills'", 'Display my technical skills and expertise.', false],
         ["'git log'", 'Display my experience.', false],
-        ["'cat achievements.txt'", 'Display the achievements.', true],
+        ["'cat achievements.txt'", 'Display the achievements.', false],
+        ["'get resume'", 'Open my resume.', true],
         ["'sudo'", 'Felt lazy? Also dont do something crazy.', false],
         ["'curl repo'", 'Repo of the site.', false],
         ["'neofetch'", 'Display the banner.', false],
@@ -16,7 +17,7 @@ const helpObj = {
         ["'github'", 'The same reason as above.', false],
         ["'leetcode'", 'Its obvious, isnt it?', false],
         ["'discord'", 'How many times do I tell you.', false],
-        ["'instagram'", 'You dont get it do you?', true]
+        ["'instagram'", 'You dont get it do you?', true],
     ]
 }
 

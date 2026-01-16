@@ -19,6 +19,7 @@
     "hostname": "archlinux",
     "password": "incorrect",
     "repoLink": "https://github.com/inventedsarawak/portfolio",
+    "resumeLink": "https://github.com/InventedSarawak/InventedSarawak/raw/main/resume.pdf",
     "social": {
         "email": "relativityeismc2@gmail.com",
         "github": "inventedsarawak",
@@ -52,7 +53,7 @@
             ],
             ["TEDxIIITS", "A website for TEDxIIITS.", "https://tedxiiitsricity.com"],
             ["Fab2Fash", "A website for Fab2Fash, a fashion brand.", "https://fab2fash.com"],
-            ["Portfolio", "My personal portfolio website.", "https://vedant-kesarwani.vercel.app"]
+            ["Portfolio", "My personal portfolio website.", "https://invented-sarawak.me"]
         ],
         "Game Development": [
             ["BubbleRise", "A game for GGJ 2025, based on bubbles", "https://github.com/inventedsarawak/BubbleRise"]
@@ -73,7 +74,7 @@
             [
                 "CYK Algorithm",
                 "A terminal application to simulate CYK algorithm.",
-                "hhttps://github.com/InventedSarawak/CYK-Algorithm"
+                "https://github.com/InventedSarawak/CYK-Algorithm"
             ]
         ]
     },

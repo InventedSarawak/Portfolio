@@ -55,6 +55,7 @@ const COMMANDS = [
 const HISTORY: string[] = []
 const SUDO_PASSWORD = command.password
 const REPO_LINK = command.repoLink
+const RESUME_LINK = command.resumeLink
 
 const LINKEDIN = `https://www.linkedin.com/in/${command.social.linkedin}/`
 const GITHUB = `https://github.com/${command.social.github}`
@@ -319,6 +320,12 @@ function commandHandler(input: string) {
             setTimeout(() => {
                 window.open(INSTAGRAM, '_blank')
             })
+            break
+        case 'get resume':
+            writeLines(['Redirecting to resume...', '<br>'])
+            setTimeout(() => {
+                window.open(RESUME_LINK, '_blank')
+            }, 500)
             break
         case 'git log':
             if (bareMode) {

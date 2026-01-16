@@ -23,6 +23,9 @@ const createBanner = (): string[] => {
     banner.push(
         `Type <span class='command'>'curl repo'</span> to view the GitHub repository or click <a href='${command.repoLink}' target='_blank'>here</a>.`
     )
+    banner.push(
+        `Type <span class='command'>'get resume'</span> to open the resume or click <a href='${command.resumeLink}' target='_blank'>here</a>.`
+    )
     banner.push('<br>')
     return banner
 }
