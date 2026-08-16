@@ -1,5 +1,4 @@
-import command from '../config.json' assert { type: 'json' }
-
+import command from '../config.json' with { type: 'json' }
 ;(() => {
     const style = document.createElement('style')
     const head = document.head

@@ -1,4 +1,4 @@
-import command from '../../config.json' assert { type: 'json' }
+import command from '../../config.json' with { type: 'json' }
 
 // Function to generate 6-character hash from string
 const generateHash = (input: string, index: number): string => {

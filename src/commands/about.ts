@@ -1,4 +1,4 @@
-import command from '../../config.json' assert { type: 'json' }
+import command from '../../config.json' with { type: 'json' }
 
 const createAbout = (): string[] => {
     const about: string[] = []

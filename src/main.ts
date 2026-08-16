@@ -1,4 +1,4 @@
-import command from '../config.json' assert { type: 'json' }
+import command from '../config.json' with { type: 'json' }
 import { HELP } from './commands/help'
 import { BANNER } from './commands/banner'
 import { ABOUT } from './commands/about'
@@ -49,8 +49,9 @@ const COMMANDS = [
     'instagram',
     'leetcode',
     'git log',
-    'get cache-miss'
-    // 'email',
+    'get cache-miss',
+    'get resume',
+    'email',
 ]
 const HISTORY: string[] = []
 const SUDO_PASSWORD = command.password
@@ -63,7 +64,7 @@ const DISCORD = `https://discord.com/users/${command.social.discord}`
 const INSTAGRAM = `https://www.instagram.com/${command.social.instagram}`
 const BLOG = `https://blog.invented-sarawak.me`
 const LEETCODE = `https://leetcode.com/${command.social.leetcode}`
-// const EMAIL = `mailto:${command.social.email}`
+const EMAIL = `mailto:${command.social.email}`
 
 const scrollToBottom = () => {
     const MAIN = document.getElementById('main')
@@ -303,11 +304,11 @@ function commandHandler(input: string) {
                 window.open(GITHUB, '_blank')
             })
             break
-            // case 'email':
-            //     writeLines(['Redirecting to email...', '<br>'])
-            //     setTimeout(() => {
-            //         window.open(EMAIL, '_blank')
-            //     })
+            case 'email':
+                writeLines(['Redirecting to email...', '<br>'])
+                setTimeout(() => {
+                    window.open(EMAIL, '_blank')
+                })
             break
         case 'discord':
             writeLines(['Redirecting to discord.com...', '<br>'])
