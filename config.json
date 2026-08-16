@@ -31,7 +31,8 @@
     "aboutGreeting": [
         "Hallo, Ich Bin Vedant. 👋",
         "I am a Computer Science student at IIIT Sri City.",
-        "I am way too interested in building for the web &emsp;(unhealthy amounts),",
+        "Upcoming SDE Intern at IDFC First Bank. 💻",
+        "I am way too interested in building backend and high performance systems &emsp;(unhealthy amounts),",
         "and a massive interest in Design. 🖌️",
         "&nbsp;",
         "If you want to find me in the wild, you can find me",
@@ -47,25 +48,49 @@
     "projects": {
         "Web Development": [
             [
-                "HackTheBreach",
-                "A website for HackTheBreach, Cybersecurity Workshop & CTF.",
-                "https://hackthebreach.xyz"
+                "TEDx IIITS Website",
+                "A website for TEDxIIITS, a TEDx event organized by IIIT Sri City.",
+                "https://tedxiiitsricity.com"
             ],
-            ["TEDxIIITS", "A website for TEDxIIITS.", "https://tedxiiitsricity.com"],
-            ["Fab2Fash", "A website for Fab2Fash, a fashion brand.", "https://fab2fash.com"],
-            ["Portfolio", "My personal portfolio website.", "https://invented-sarawak.me"]
+            ["CacheMiss", "My personal blog website.", "https://blog.invented-sarawak.me"],
+            ["Portfolio", "My personal portfolio website.", "https://invented-sarawak.me"],
+            ["HackTheBreach", "A website for HackTheBreach, Cybersecurity Workshop & CTF.", "https://hackthebreach.xyz"]
         ],
-        "Game Development": [
-            ["BubbleRise", "A game for GGJ 2025, based on bubbles", "https://github.com/inventedsarawak/BubbleRise"]
+        "Blockchain Development": [
+            [
+                "Ledgera",
+                "A decentralized ESG Carbon Credit Trading Platform.",
+                "https://github.com/inventedsarawak/Ledgera"
+            ],
+            [
+                "IdentiFi",
+                "A decentralized SSI Identity Management System.",
+                "https://github.com/inventedsarawak/IdentiFi"
+            ]
         ],
-        "Research & AI": [
+        "AI": [
+            [
+                "Ojas.AI",
+                "An AI-powered RAG based Ayurvedic SLM, capable of answering questions and providing recommendations.",
+                "https://github.com/inventedsarawak/OJAS-AI"
+            ]
+        ],
+        "Algorithm Implementation": [
+            [
+                "Rigid-IPC",
+                "A 3d physics simulation for rigid body interactions.",
+                "https://github.com/InventedSarawak/Rigid-IPC"
+            ],
+            [
+                "Distributed Sorting Sim",
+                "A terminal application to simulate various distributed sorting algorithms.",
+                "https://github.com/InventedSarawak/Distributed-Sorting-Sim"
+            ],
             [
                 "A-MCTS",
                 "An implementation of the Adaptive Monte Carlo Tree Search algorithm.",
                 "https://amcts.vercel.app"
-            ]
-        ],
-        "System Programming": [
+            ],
             [
                 "IPv4-Frags",
                 "A terminal application to simulate IPv4 fragmentation.",
@@ -76,6 +101,21 @@
                 "A terminal application to simulate CYK algorithm.",
                 "https://github.com/InventedSarawak/CYK-Algorithm"
             ]
+        ],
+        "Systems Programming": [
+            [
+                "Tiny Server",
+                "A Simple lightweight messaging server implemented in C.",
+                "https://github.com/InventedSarawak/TinyServer"
+            ],
+            [
+                "RayPulse",
+                "A custom ray tracer engine implemented in C++.",
+                "https://github.com/InventedSarawak/RayPulse"
+            ]
+        ],
+        "Game Development": [
+            ["BubbleRise", "A game for GGJ 2025, based on bubbles", "https://github.com/inventedsarawak/BubbleRise"]
         ]
     },
     "skills": {
@@ -83,16 +123,17 @@
             ["C/C++", "Low-level system programming and embedded systems"],
             ["Java", "Enterprise applications and cross-platform development"],
             ["Python", "Scripting & Data structures and algorithms"],
+            ["Go", "Backend & Blockchain Development"],
+            ["Solidity", "Smart contract development for Ethereum and EVM-based blockchains"],
             ["HTML", "Semantic markup and web structure"],
             ["CSS", "Styling, animations, and responsive design"],
             ["JavaScript", "Dynamic web development and interactive features"],
-            ["TypeScript", "Type-safe JavaScript development"],
-            ["Go", "Game Development & Blockchain Development"],
-            ["Markdown", "Documentation and content formatting"]
+            ["TypeScript", "Type-safe JavaScript development"]
         ],
         "Frontend Stack": [
             ["React", "Modern component-based UI development"],
             ["Next.js", "Full-stack React applications with SSR/SSG"],
+            ["Tailwind CSS", "Utility-first CSS framework for rapid UI development"],
             ["GSAP", "High-performance animations and motion graphics"],
             ["Motion", "React animation library for smooth interactions"],
             ["Three.js", "3D graphics and WebGL experiences"]
@@ -100,35 +141,50 @@
         "Backend Technologies": [
             ["Node.js", "Server-side JavaScript runtime"],
             ["Express", "Fast and minimalist web framework"],
-            ["NestJS", "Progressive Node.js framework for scalable applications"],
+            ["Echo", "High-performance web framework for Go"],
             ["Firebase", "Real-time database and backend-as-a-service"],
             ["Supabase", "Open-source Firebase alternative"],
-            ["MongoDB", "NoSQL document database"],
             ["MySQL", "Relational database management system"],
-            ["PostgreSQL", "Advanced open-source relational database"]
+            ["PostgreSQL", "Advanced open-source relational database"],
+            ["MongoDB", "NoSQL document database"]
+        ],
+        "Blockchain Development": [
+            ["Ethereum", "Decentralized platform for smart contracts"],
+            ["Solidity", "Programming language for Ethereum smart contracts"],
+            ["Hardhat", "Ethereum development environment and testing framework"],
+            ["Web3.js", "JavaScript library for interacting with Ethereum"],
+            ["Ethers.js", "Lightweight JavaScript library for Ethereum interactions"],
+            ["IPFS", "Decentralized file storage and sharing"],
+            ["Foundry", "Blockchain development platform for building and deploying smart contracts"]
         ],
         "Dev Tools": [
             ["Git", "Version control and collaborative development"],
             ["GitHub", "Code hosting and project collaboration"],
+            ["Markdown", "Documentation and content formatting"],
+            ["Latex", "Scientific and technical document preparation"],
+            ["Figma", "Collaborative interface design and prototyping"],
             ["Docker", "Containerization and deployment"],
             ["Docker Compose", "Multi-container application orchestration"],
+            ["Postman", "API testing and development environment"],
             ["Prettier", "Code formatting and style consistency"],
             ["ESLint", "JavaScript linting and code quality"],
             ["Amazon EC2", "Cloud computing and virtual servers"],
             ["Amazon S3", "Cloud storage and content delivery"],
-            ["Vercel", "Frontend deployment and hosting platform"]
+            ["Vercel", "Frontend deployment and hosting platform"],
+            ["CI/CD", "Continuous integration and deployment pipelines"]
         ]
     },
     "achievements": [
-        "Certificate of Achievement for exceptional academic performance and scoring 9+ CGPA",
-        "Played a key role in TEDx event execution, managing logistics for 100+ attendees",
-        "Facilitated Hack The Breach cybersecurity bootcamp with 200+ participants and 25+ experts"
+        "Secured 5th Prize among 70+ teams for building Ojas.ai in Ideaverse Hackathon.",
+        "Three-time Global Game Jam 3rd Prize Winner, recognized for rapid prototyping and technical execution in game development.",
+        "Led a cybersecurity bootcamp CyberTEA 3.0 for 100+ participants, coordinated 20+ mentors, and deployed a zero-downtime CTF platform supporting 400 concurrent users.",
+        "Developed and maintained the official website for the HackTheBreach."
     ],
     "experience": {
         "SDE Intern at KHM Engineers": "Jul 2025 - Sep 2025",
-        "Lead Organizer at Hack The Breach": "Jul 2025 - Present",
-        "Website Developer at TEDxIIITS": "Jan 2025 - Present",
-        "Website & Design Lead at Hack The Breach": "Mar 2025 - Jul 2025"
+        "Website Developer at TEDxIIITS": "Jan 2025 - May 2026",
+        "Website & Design Lead at Hack The Breach": "Mar 2025 - Jul 2025",
+        "ENIGMA Club Computer Graphics Core Team Member": "Sep 2023 - Aug 2024"
     },
     "colors": {
         "background": "#1e1e2e",
