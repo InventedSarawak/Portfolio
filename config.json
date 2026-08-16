@@ -49,7 +49,7 @@
     "projects": {
         "Web Development": [
             [
-                "TEDx IIITS Website",
+                "TEDxIIITS Site",
                 "A website for TEDxIIITS, a TEDx event organized by IIIT Sri City.",
                 "https://tedxiiitsricity.com"
             ],
@@ -83,7 +83,7 @@
                 "https://github.com/InventedSarawak/Rigid-IPC"
             ],
             [
-                "Distributed Sorting Sim",
+                "Distribute Sort",
                 "A terminal application to simulate various distributed sorting algorithms.",
                 "https://github.com/InventedSarawak/Distributed-Sorting-Sim"
             ],
