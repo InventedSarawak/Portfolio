@@ -18,6 +18,7 @@ const helpObj = {
         ["'leetcode'", 'Its obvious, isnt it?', false],
         ["'discord'", 'How many times do I tell you.', false],
         ["'instagram'", 'You dont get it do you?', true],
+        ["'email'", 'I mean, you can try.', false]
     ]
 }
 
